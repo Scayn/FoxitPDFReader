@@ -57,7 +57,7 @@ Param (
     [switch]$DisableLogging = $false
 )
 
-Try {
+
     ## Set the script execution policy for this process
     Try { Set-ExecutionPolicy -ExecutionPolicy 'ByPass' -Scope 'Process' -Force -ErrorAction 'Stop' } Catch {}
 
